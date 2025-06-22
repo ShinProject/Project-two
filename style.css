@@ -228,3 +228,29 @@ footer {
     font-size: 2rem;
   }
 }
+.download-container {
+  background-color: #f8f9fa; /* Warna latar kotak */
+  border-radius: 10px; /* Sudut melengkung */
+  padding: 25px; /* Ruang dalam kotak */
+  margin: 30px 0; /* Ruang luar kotak */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Bayangan */
+  border-left: 5px solid var(--primary); /* Garis aksen kiri */
+}
+
+.download-header {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--dark);
+}
+
+/* Untuk tombol dalam kotak */
+.download-container .btn {
+  margin: 0 10px 10px 0; /* Jarak antar tombol */
+  box-shadow: none; /* Hilangkan shadow default */
+  transition: all 0.2s ease;
+}
+
+.download-container .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
